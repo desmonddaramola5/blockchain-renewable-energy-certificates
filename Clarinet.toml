@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.green-energy-marketplace]
+path = 'contracts/green-energy-marketplace.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.renewable-certificate-generator]
 path = 'contracts/renewable-certificate-generator.clar'
 clarity_version = 2
